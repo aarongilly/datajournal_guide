@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"76f07613e8eaccc1","type":"group","x":-481,"y":-90,"width":440,"height":990,"label":"Paved Road"},
+		{"id":"00b6f600122b5f6d","type":"text","text":"# What to Track","x":0,"y":-120,"width":250,"height":60},
+		{"id":"23818236e3631abc","type":"text","text":"# Splash\n- Video\n- Intro\n- Why","x":0,"y":-400,"width":250,"height":160},
+		{"id":"ae2780d034f53595","type":"file","file":"Reference Build/Layer 0 – Data Store.md","x":-461,"y":-60,"width":400,"height":120},
+		{"id":"bb5489fea62fb9d1","type":"file","file":"Reference Build/Layer 2 – Integrations.md","subpath":"#^tldr","x":-461,"y":336,"width":400,"height":120},
+		{"id":"4762f5f2adafb2f2","type":"file","file":"Reference Build/Layer 1 – Automation.md","x":-461,"y":133,"width":400,"height":130},
+		{"id":"35d7487a7a9db6ea","type":"file","file":"Reference Build/Layer 4 – Widgets.md","x":-461,"y":740,"width":400,"height":120},
+		{"id":"110f0754fff593b7","type":"file","file":"Reference Build/Layer 3 – Fast Input.md","x":-461,"y":529,"width":400,"height":140}
+	],
+	"edges":[
+		{"id":"5ce9943ba92dca9f","fromNode":"23818236e3631abc","fromSide":"bottom","toNode":"00b6f600122b5f6d","toSide":"top"},
+		{"id":"a82b14dddb01fc0b","fromNode":"ae2780d034f53595","fromSide":"bottom","toNode":"4762f5f2adafb2f2","toSide":"top"},
+		{"id":"1de750b8f7b036af","fromNode":"bb5489fea62fb9d1","fromSide":"bottom","toNode":"110f0754fff593b7","toSide":"top"},
+		{"id":"246725ff07e3da80","fromNode":"4762f5f2adafb2f2","fromSide":"bottom","toNode":"bb5489fea62fb9d1","toSide":"top"},
+		{"id":"a370e1e5ce015057","fromNode":"110f0754fff593b7","fromSide":"bottom","toNode":"35d7487a7a9db6ea","toSide":"top"}
+	]
+}

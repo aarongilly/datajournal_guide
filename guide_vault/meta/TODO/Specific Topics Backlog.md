@@ -1,0 +1,22 @@
+- [ ] Reference Build
+	- [ ] Most Basic Google Sheets setup
+	- [ ] PivotTables
+	- [ ] Google Apps Script Tutorial
+	- [ ] Siri Shortcuts GET & POST Requests
+	- [ ] Multi-sheet Workbook (sheets on a per-event basis)
+	- [ ] Scriptable Widgets
+	- [ ] Automated CSV Backups
+- [ ] Alternative Architectures
+	- [ ] Multiworkbook Setup (Folder-based approach)
+	- [ ] Notion
+	- [ ] Obsidian
+	- [ ] Self-hosted Pi
+	- [ ] Google Looker
+- [ ] The power of simple file types --- may be a Note, too
+	- Your Data Format Matters More Than Your App
+- [ ] Passive data collection → [this note](obsidian://open?vault=Notes&file=Passive%20Personal%20Data%20Collection%20Sources)
+- [ ] specific apps - Apple Health CSV, Cadence, Streaks
+- [ ] Automatically tracked, manually confirmed
+- [ ] Roads not travelled
+	- time Tracking - toggl and rescuetime -- MarkWK
+	- Most of this https://github.com/markwk/qs_ledger

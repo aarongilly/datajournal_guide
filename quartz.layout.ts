@@ -1,5 +1,5 @@
-import { PageLayout, SharedLayout } from "./quartz/cfg"
-import * as Component from "./quartz/components"
+import { PageLayout, SharedLayout } from './quartz/cfg'
+import * as Component from './quartz/components'
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -8,8 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: 'https://github.com/aarongilly/datajournal_guide',
+      'My Blog': 'https://www.aarongilly.com',
+      'My Notes': 'https://gillespedia.com',
+      'My Puzzles': 'https://aaronspuzzles.com',
     },
   }),
 }
@@ -19,7 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: page => page.fileData.slug !== 'index',
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -38,7 +40,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: node => {
+        return !node.slug?.startsWith('assets') && !node.slug?.startsWith('meta')
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +68,11 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: node => {
+        return !node.slug?.startsWith('assets')
+      },
+    }),
   ],
   right: [],
 }
