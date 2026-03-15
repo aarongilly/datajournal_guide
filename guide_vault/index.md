@@ -39,7 +39,11 @@ Planned content not yet finished:
 
 ### Principles and Practices
 
-- [[Principles & Best Practices|What makes a data journal work?]]
+- What makes a data journal work?
+
+### Architecture
+
+- A C4 Model
 
 ### Tracking Topics & Ideas
 

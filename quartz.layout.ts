@@ -44,6 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
       filterFn: node => {
         return !node.slug?.startsWith('assets') && !node.slug?.startsWith('meta')
       },
+      folderDefaultState: 'open',
     }),
   ],
   right: [

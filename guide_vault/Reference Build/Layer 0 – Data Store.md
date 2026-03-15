@@ -22,6 +22,8 @@ The [[The Reference Build - a Complete Data Journal Architecture|Reference Build
 Each sheet represents a **different grain of data**.  
 Some sheets track _time periods_ (days, weeks, months, years). Others track _individual occurrences_ (like workouts or events).
 
+![[example_data_journal.png]]
+
 This structure keeps the data **simple, consistent, and easy to analyze with formulas or PivotTables**.
 
 > [!question] Why Google Sheets?
