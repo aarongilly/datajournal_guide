@@ -33,6 +33,10 @@ The point of this website is to help you:
 - [[My (Real) Data Journal]]
 - [Me](https://aarongilly.com/Pages/About)
 
+### Architecture
+
+- [[C4 Model]] depicting the reference build
+
 ## Coming Soon™️
 
 Planned content not yet finished:
@@ -40,10 +44,6 @@ Planned content not yet finished:
 ### Principles and Practices
 
 - What makes a data journal work?
-
-### Architecture
-
-- A C4 Model
 
 ### Tracking Topics & Ideas
 
