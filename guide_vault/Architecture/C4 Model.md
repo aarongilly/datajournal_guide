@@ -53,3 +53,10 @@ This view in-zooms on the Google Sheet, showing its main types of sheets and how
 
 ![[C4 Model 2026-03-16 22.43.00.excalidraw.svg]]
 %%[[C4 Model 2026-03-16 22.43.00.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+# Exploded View
+
+This is not part of the C4 Spec, but I wanted to see it so here you go.
+
+![[C4 Model 2026-03-17 17.19.02.excalidraw.svg]]
+%%[[C4 Model 2026-03-17 17.19.02.excalidraw.md|🖋 Edit in Excalidraw]]%%
