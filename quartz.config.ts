@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: 'en-US',
     baseUrl: 'datajournal.guide',
-    ignorePatterns: ['private', 'templates', '.obsidian', 'meta/**'],
+    ignorePatterns: ['private', 'templates', '.obsidian', 'meta/**', "**/*.excalidraw"],
     defaultDateType: 'modified',
     theme: {
       fontOrigin: 'googleFonts',
