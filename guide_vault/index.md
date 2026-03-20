@@ -1,16 +1,16 @@
 ---
 title: The Data Journal Guide
 ---
-Most people rely on memory and intuition to understand their life—but memory is imperfect, and intuition works best when calibrated against real data. A Data Journal is a system for tracking what matters to you and turning it into something you can examine and learn from. Build your own, and you put yourself in the driver’s seat with a durable, powerful engine for clarity, accountability, and intentional living.
-
 > [!success] Clearly see the person you are becoming, one day at a time.
+
+Most people rely on memory and intuition to understand their life—but memory is imperfect, and intuition works best when calibrated against real data. A Data Journal is a system for tracking what matters to you and turning it into something you can examine and learn from. Build your own, and you put yourself in the driver’s seat with a durable, powerful engine for clarity, accountability, and intentional living.
 
 ![[Splash 2026-03-03 22.17.31.excalidraw.svg]]
 
 %% [[Splash 2026-03-03 22.17.31.excalidraw|Edit in Excalidraw]] %%
 
-This website is not about money. I am not selling anything or advertising.  
-I am sharing an idea that's massively improved my life for 13+ years.
+I am not selling anything. There are no ads. This website is not for money. 
+I want to share an idea that's massively improved my life for 13+ years.
 
 The point of this website is to help you:
 

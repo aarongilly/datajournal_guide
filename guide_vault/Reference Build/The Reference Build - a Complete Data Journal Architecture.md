@@ -6,7 +6,7 @@ tags:
 ---
 # Overview
 
-This **Reference Build Guide** documents how to recreate my [[Example Data Journal]]. It is a complete, working system — stable, cohesive, and battle-tested. 
+This **Reference Build Guide** documents how to recreate my [[Example Data Journal]]. You can build a Data Journal however you want; but this is a complete, working system — stable, cohesive, and battle-tested. 
 
 The Reference Build is structured as a series of layers.  
 Each layer adds new capabilities to the system.  

@@ -8,6 +8,7 @@
 - Think on very long time scales
 - Design for change
 - ...Separation of concerns
+	- Don't do data analysis in the data recording sheets
 
 ## Best Practices
 

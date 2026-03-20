@@ -8,7 +8,7 @@ import * as Plugin from './quartz/plugins'
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: 'Data Journal Guide',
+    pageTitle: 'DJG',
     pageTitleSuffix: '',
     enableSPA: true,
     enablePopovers: true,
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: 'en-US',
     baseUrl: 'datajournal.guide',
-    ignorePatterns: ['private', 'templates', '.obsidian', 'meta/**', "**/*.excalidraw"],
+    ignorePatterns: ['private', 'templates', '.obsidian', 'meta/**', "**/*.excalidraw.md"],
     defaultDateType: 'modified',
     theme: {
       fontOrigin: 'googleFonts',

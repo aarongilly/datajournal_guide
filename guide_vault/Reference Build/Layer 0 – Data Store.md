@@ -69,7 +69,8 @@ Each sheet is shown and documented extensively in [[Example Data Journal|The Exa
 		1. Delete the example *per-occurrence* sheets (`workouts` and `events`) 
 		2. Delete the columns that reference them
 6. Start tracking things!
-7. Highly recommend moving on to the next step: [[Layer 1 – Automation|automating daily maintenance]]
+7. Consider adding analysis sheets, including things like charts and [[Example Data Journal#PivotTable\|PivotTables]]
+8. Highly recommend moving on to the next step: [[Layer 1 – Automation|automating daily maintenance]]
 
 ---
 # What This Layer Enables

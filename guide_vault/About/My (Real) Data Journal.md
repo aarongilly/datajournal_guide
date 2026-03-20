@@ -128,3 +128,6 @@ For a tiny bit more detail…
 ![[version_timeline.jpeg]]
 
 Versions rolled each time I changed what I was tracking… most of which _also_ coincided with some form of system structure/architecture change. In general, I started by tracking a little, then a lot, then far too much. Eventually I scaled back. Now I track a medium amount — though it’s probably still what most people would consider “a lot.”
+
+> [!info]
+> If you're into architecture diagrams, check out the [[C4 Model]] of the Reference Build.
