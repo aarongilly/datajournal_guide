@@ -9,7 +9,7 @@ Shows Data Journal as a black (blue, technically) box in its context.
 ---
 # Container
 
-This in-zooms on the Data Journal to depict the [[The Reference Build - a Complete Data Journal Architecture#Overview|five layers]] and how they interact.
+This in-zooms on the Data Journal to depict the [[The Reference Build - a Complete Data Journal Architecture#Overview|five layers]] and how they interact. This depicts [[The Reference Build - a Complete Data Journal Architecture|The Reference Build]], whereas the system context view is pretty much implementation-agnostic.
 
 ![[C4 Model 2026-03-16 16.09.45.excalidraw.svg]]
 %%[[C4 Model 2026-03-16 16.09.45.excalidraw.md|🖋 Edit in Excalidraw]]%%
