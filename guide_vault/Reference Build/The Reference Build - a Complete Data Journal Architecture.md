@@ -45,7 +45,7 @@ Other ways to build this layer:
 
 > [!tip] How to build → [[Layer 1 – Automation]]
 
-Automation handles much of the system's maintenance automatically.
+Automation handles much of the system's maintenance automatically. It can also be extended to perform other tasks (e.g. pull data from 3rd party services and create automated backups).
 
 The Reference Build uses **Google Apps Script** for automation.
 

@@ -49,8 +49,6 @@ The script performs routine maintenance tasks such as:
 
 These tasks run automatically on a schedule.
 
-- [ ] ==!!!YOU NEED TO TEST THIS!!!==
-
 > [!tip] Inspect the example script  
 > The example Data Journal includes the automation code used in the Reference Build.
 > 

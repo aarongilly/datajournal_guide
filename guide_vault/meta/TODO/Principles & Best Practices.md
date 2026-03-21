@@ -33,7 +33,7 @@ Other than the header of your sheets, every row should be the same format and th
 
 ### Automatically tracked, manually confirmed
 
-The gold standard of building data over time that you can actually *trust* is to use automated tracking, but then manually confirm what was tracked. 
+The gold standard of building data over time that you can actually *trust* is to use automated tracking, but then manually confirm what was tracked is accurate. 
 
 If you only use automated tracking (a la the Apple Watch) → data anomalies will enter your data and confound patterns and trends.
 
