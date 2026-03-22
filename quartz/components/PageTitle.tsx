@@ -6,50 +6,10 @@ import { i18n } from "../i18n"
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
-  // const imgSrc = joinSegments(baseDir, "static/datajournal.svg")
+  const imgSrc = joinSegments(baseDir, "static/datajournal.svg")
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      {/* <a href={baseDir} style="display:flex; align-items: center"><img src={imgSrc} alt="Logo" style="height: 1em; padding-right: 0.25em"></img>{title}</a> */}
-      <a href={baseDir} style="display:flex; align-items: center"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246.25454963311017 246.25454963311006" width="246.25454963311017" height="246.25454963311006" class="excalidraw-svg">
-      <style>
-            :root {
-                  --icon-color: #1e1e1e; /* Dark for Light Mode */
-            }
-
-            @media (prefers-color-scheme: dark) {
-                  :root {
-                        --icon-color: #ffffff; /* White for Dark Mode */
-                  }
-            }
-
-            .dynamic-color { 
-                  fill: var(--icon-color); 
-                  transition: fill 0.3s ease, stroke 0.3s ease;
-            }
-            .dynamic-stroke { 
-                  stroke: var(--icon-color); 
-                  transition: stroke 0.3s ease;
-            }
-      </style>
-
-      <g stroke-linecap="round">
-            <g transform="translate(9.990189826707478 123.12727481655494) rotate(0.754530180053239 113.13708498984761 0)" fill-rule="evenodd">
-                  <path d="M0 0 L113.14 -113.14 L141.42 -84.85 L127.28 -70.71 L113.14 -80 L33.14 0 L113.14 80 L193.14 0 L183.85 -14.14 L197.99 -28.28 L226.27 0 L113.14 113.14 L0 0" 
-                        stroke="none" stroke-width="0" class="dynamic-color" fill-rule="evenodd"></path>
-                  <path d="M0 0 C40.43 -40.43, 80.86 -80.86, 113.14 -113.14 M0 0 C31.45 -31.45, 62.9 -62.9, 113.14 -113.14 M113.14 -113.14 C119.36 -106.92, 125.58 -100.7, 141.42 -84.85 M113.14 -113.14 C121.42 -104.86, 129.7 -96.58, 141.42 -84.85 M141.42 -84.85 C136.69 -80.12, 131.96 -75.39, 127.28 -70.71 M141.42 -84.85 C136.92 -80.35, 132.42 -75.85, 127.28 -70.71 M127.28 -70.71 C123.39 -73.27, 119.5 -75.82, 113.14 -80 M127.28 -70.71 C121.81 -74.3, 116.34 -77.89, 113.14 -80 M113.14 -80 C95.06 -61.92, 76.98 -43.85, 33.14 0 M113.14 -80 C88.26 -55.12, 63.38 -30.25, 33.14 0 M33.14 0 C59.08 25.94, 85.02 51.88, 113.14 80 M33.14 0 C56.68 23.54, 80.21 47.08, 113.14 80 M113.14 80 C137.1 56.04, 161.07 32.07, 193.14 0 M113.14 80 C132.26 60.88, 151.38 41.75, 193.14 0 M193.14 0 C191.14 -3.04, 189.15 -6.07, 183.85 -14.14 M193.14 0 C189.82 -5.05, 186.51 -10.09, 183.85 -14.14 M183.85 -14.14 C188.18 -18.48, 192.52 -22.81, 197.99 -28.28 M183.85 -14.14 C187.77 -18.07, 191.7 -21.99, 197.99 -28.28 M197.99 -28.28 C207.22 -19.05, 216.45 -9.82, 226.27 0 M197.99 -28.28 C205.3 -20.98, 212.61 -13.67, 226.27 0 M226.27 0 C183.19 43.09, 140.1 86.17, 113.14 113.14 M226.27 0 C193.04 33.24, 159.8 66.47, 113.14 113.14 M113.14 113.14 C82.35 82.35, 51.56 51.56, 0 0 M113.14 113.14 C76.42 76.42, 39.71 39.71, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0" 
-                        class="dynamic-stroke" stroke-width="4" fill="none"></path>
-            </g>
-      </g>
-      <g stroke-linecap="round">
-            <g transform="translate(124.5382303751752 123.68057110993766) rotate(0.754530180053239 50 -50)" fill-rule="evenodd">
-                  <path d="M0 0 L20 0 L100 -80 L80 -100 L0 -20 L0 0" stroke="none" stroke-width="0" 
-                        class="dynamic-color" fill-rule="evenodd"></path>
-                  <path d="M0 0 C6.27 0, 12.53 0, 20 0 M0 0 C7.39 0, 14.78 0, 20 0 M20 0 C43.97 -23.97, 67.93 -47.93, 100 -80 M20 0 C50.46 -30.46, 80.93 -60.93, 100 -80 M100 -80 C94.94 -85.06, 89.89 -90.11, 80 -100 M100 -80 C92.97 -87.03, 85.94 -94.06, 80 -100 M80 -100 C48.75 -68.75, 17.49 -37.49, 0 -20 M80 -100 C48.8 -68.8, 17.6 -37.6, 0 -20 M0 -20 C0 -12.47, 0 -4.95, 0 0 M0 -20 C0 -15.97, 0 -11.95, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0" 
-                        class="dynamic-stroke" stroke-width="4" fill="none"></path>
-            </g>
-      </g>
-</svg>
-{title}</a>
+      <a href={baseDir} style="display:flex; align-items: center; margin: 0px"><img src={imgSrc} alt="Logo" style="height: 1em; padding-right: 0.25em"></img>{title}</a>
     </h2>
   )
 }
