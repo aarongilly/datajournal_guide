@@ -6,3 +6,19 @@ img {
   margin: auto;
   display: block;
 }
+
+// hide the site name on mobile and show the logo instead
+.site-logo {
+  display: none;
+  height: 28px;
+}
+
+@media (max-width: 800px) {
+  .site-name {
+    display: none;
+  }
+
+  .site-logo {
+    display: inline;
+  }
+}
