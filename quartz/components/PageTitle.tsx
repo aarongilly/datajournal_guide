@@ -9,7 +9,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const imgSrc = joinSegments(baseDir, "static/icon.png")
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}><img src={imgSrc} alt="Logo" style="height: 1em; padding-right: 0.25em"></img>{title}</a>
+      <a href={baseDir} style="display:flex; align-items: center"><img src={imgSrc} alt="Logo" style="height: 1em; padding-right: 0.25em"></img>{title}</a>
     </h2>
   )
 }
