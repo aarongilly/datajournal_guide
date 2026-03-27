@@ -22,11 +22,20 @@ The point of this website is to help you:
 
 - [[What is a Data Journal?]]
 - [[Why build a Data Journal?]]
+	- [[How a Data Journal Benefits You]]
+- [[Principles]] & [[Best Practices]]
 
 ### The Reference Build
 
 - [[Example Data Journal|What does one look like?]]
 - [[The Reference Build - a Complete Data Journal Architecture|How could I make one?]]
+
+### Tools & Techniques
+
+- [[Automated Data Source Ideas]]
+- [[Weather Tracking]]
+- [[Oura Webhook Setup]]
+
 ### About
 
 - [[My (Real) Data Journal]]

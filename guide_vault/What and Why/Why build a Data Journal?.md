@@ -44,7 +44,7 @@ Because the system is yours:
 
 This flexibility makes it much easier to maintain the system over long periods of time.
 
-==A Data Journal is is meant to last *forever*. It's meant to be *yours* — and to work long as *you choose*.==
+Data Journals are meant to be *yours* — and to work long as *you choose*.
 
 ## Skills you develop
 
