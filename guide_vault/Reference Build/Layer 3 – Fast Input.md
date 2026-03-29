@@ -208,9 +208,9 @@ The Data Journal is no longer just something you update manually — it can now�
 
 ## If You Stopped Here
 
-If you stopped here, you would have a **highly practical Data Journal**.
+If you stopped here, you would have a **highly practical Data Journal**. This is another **great** stopping point. 
 
-You could quickly log information from your phone, automate the collection of certain data, and build a growing dataset about your daily life with very little effort.
+You could quickly log information from your phone, automate the collection of data, and build a growing dataset about your daily life with very little effort.
 
 This is where the system becomes **truly useful**.
 

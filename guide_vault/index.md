@@ -34,7 +34,6 @@ The point of this website is to help you:
 
 - [[Automated Data Source Ideas]]
 - [[Weather Tracking]]
-- [[Oura Webhook Setup]]
 
 ### About
 
@@ -49,16 +48,18 @@ The point of this website is to help you:
 
 Planned content not yet finished:
 
-### Principles and Practices
-
-- What makes a data journal work?
-
 ### Tracking Topics & Ideas
 
 - Things you might consider tracking
 - Data that already probably exist in devices and services you use
+- [[Oura Data Puller Setup]]
 
+### A Google-less Option
+
+- An alternate design not relying on hosted services
 ### Notes on Data & Systems Design 
 
 - Grad schooling stuff
-- Architecture stuff
+	- Machine Learning
+	- Data Pipelines
+- More architecture stuff
