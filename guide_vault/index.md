@@ -1,14 +1,17 @@
 ---
 title: The Data Journal Guide
 ---
-> [!success] Clearly see the person you are becoming, one day at a time.
-> **Build your own time-indexed, data-imbued personal journal to help remember the past, be more mindful in the present, and steer yourself toward a better future.**
+**Build your own time-indexed, data-imbued personal journal to help remember the past, be more mindful in the present, and steer yourself toward a better future.**
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRagGFfPo9ucvLswgXd5e-SwSaNjFQBcIfIPUKny3Ac-ZfcxIHeC3NUdwI2jSn7jOSKvKPfAS3nUjUX/pubhtml?widget=true&amp;headers=false" width=100% height=300px></iframe>
+> [!success] Clearly see the person you are becoming, one day at a time.
 
 Most people rely on memory and intuition to understand their life—but memory is imperfect, and intuition works best when calibrated against real data. A Data Journal is a system for tracking what matters to you and turning it into something you can examine and learn from. Build your own, and you put yourself in the driver’s seat with a durable, powerful engine for clarity, accountability, and intentional living.
 
-I am not selling anything. There are no ads. This website is not for money. 
+> [!example] [full reference example here](https://docs.google.com/spreadsheets/d/18zoE1iJnyUge3CJdH0obU69Ts-jdFrNCmIQyzKPlE7I/edit?gid=1604702476#gid=1604702476).
+> 
+> <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRagGFfPo9ucvLswgXd5e-SwSaNjFQBcIfIPUKny3Ac-ZfcxIHeC3NUdwI2jSn7jOSKvKPfAS3nUjUX/pubhtml?widget=true&amp;headers=false" width=100% height=300px></iframe>
+
+I am not selling anything. There are no ads. This website is not for money.  
 I want to share an idea that's massively improved my life for 13+ years.
 
 ## Topics

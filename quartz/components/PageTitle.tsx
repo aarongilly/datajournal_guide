@@ -6,10 +6,12 @@ import { i18n } from "../i18n"
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
-  const imgSrc = joinSegments(baseDir, "static/datajournal.svg")
+  const imgSrcDark = joinSegments(baseDir, "static/datajournal-dark.svg")
+  const imgSrcLight = joinSegments(baseDir, "static/datajournal.svg")
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir} style="display:flex; align-items: center;"><img src={imgSrc} alt="Logo" style="height: 1em; padding-right: 0.25em;  margin: 0px"></img>{title}</a>
+      <a><img src={imgSrcLight} alt="Logo" style="height: 1em; padding-right: 0.25em; margin: 0px; display: var(--img-light-display);" />
+      <img src={imgSrcDark} alt="Logo" style="height: 1em; padding-right: 0.25em; margin: 0px; display: var(--img-dark-display);" />{title}</a>
     </h2>
   )
 }
