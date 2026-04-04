@@ -2,12 +2,19 @@
 
 If you own an Oura Ring, it is nice to pull those data into your Data Journal.
 
-After a one-time setup procedure, described below, you can make Oura push your data to your Data Journal via a **Oura Webhook**.
+After a one-time setup procedure your **Oura ring data** can be copied into your journal **automatically**.
 
-Image
+![[Oura Data Puller Setup 2026-04-03 15.01.55.excalidraw.svg]]
+%%[[Oura Data Puller Setup 2026-04-03 15.01.55.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 # Details
 
+> [!warning]
+> This is a bit more technical & involved, but **it's worth it**.
 
+## Why Pull Oura Data In?
 
-Stuff 
+... #todo
+## Process Overview
+
+... #todo

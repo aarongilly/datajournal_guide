@@ -10,10 +10,17 @@ I created this moderately depressing chart & found out who my top 10[^1] YouTube
 
 # Details
 
-Google Timeline is a feature Google offers wherein you can go **back in time** for your **location history** in your life. Not only a day-by-day location history, but a minute-by-minute one, including GPS details **and** some surprises like what mode of transport you are likely using.
+## Why Track YouTube?
 
-If you've an iPhone and you've not told Google Maps it cannot use your location, you have this data.  
-If you've got an Android phone, you almost certainly have this. 
+If you're signed into Google when you watch YouTube, then they record of everything you've watched, searched for, and listened to is available to you.
+
+Tracking YouTube data can reveal:
+
+- Just how much YouTube *do* you watch?
+- When do you typically watch videos during the day?
+- Which creators are you giving your time to?
+
+## Process Overview
 
 ```mermaid
 flowchart

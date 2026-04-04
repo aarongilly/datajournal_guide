@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("todo")
+    order:
+      - file.name
+      - file.folder

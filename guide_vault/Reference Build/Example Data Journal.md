@@ -11,6 +11,9 @@ This example Data Journal shows what [[The Reference Build - a Complete Data Jou
 
 ![[example_data_journal.png]]
 
+> [!info]- Interactive Example
+> Click through the tabs on the bottom to view different tables. [Full workbook here](https://docs.google.com/spreadsheets/d/18zoE1iJnyUge3CJdH0obU69Ts-jdFrNCmIQyzKPlE7I/edit?usp=sharing).
+> <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRagGFfPo9ucvLswgXd5e-SwSaNjFQBcIfIPUKny3Ac-ZfcxIHeC3NUdwI2jSn7jOSKvKPfAS3nUjUX/pubhtml?widget=true&amp;headers=false" width="100%"  height="400" frameborder="0"></iframe>
 # Details
 
 This example is the [[The Reference Build - a Complete Data Journal Architecture|Reference Build]] filled with fictitious data. 

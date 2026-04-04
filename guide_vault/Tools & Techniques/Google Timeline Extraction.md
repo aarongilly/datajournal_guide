@@ -15,6 +15,15 @@ Google Timeline is a feature Google offers wherein you can go **back in time** f
 If you've an iPhone and you've not told Google Maps it cannot use your location, you have this data.  
 If you've got an Android phone, you almost certainly have this. 
 
+> [!tip] EXPORT THIS BEFORE CHANGING PHONES
+> Google's made some changes within the past few years. If you change phones, your location history goes away when your old phone goes away.
+
+## Why get Your Google Timeline Data?
+
+... #todo 
+
+## Process Overview
+
 ```mermaid
 flowchart
 a(Download the from your phone)
@@ -23,10 +32,6 @@ c(Convert of CSV)
 a --> b
 b --if desired--> c
 ```
-
-> [!tip] EXPORT THIS BEFORE CHANGING PHONES
-> Google's made some changes within the past few years. If you change phones, your location history goes away when your old phone goes away.
-
 ## How to, Briefly
 
 > [!warning] FYI

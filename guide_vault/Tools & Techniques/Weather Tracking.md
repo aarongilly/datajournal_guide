@@ -13,7 +13,7 @@ After a one-time setup, you can enable **automatic tracking of the daily forecas
 
 ## Why Track the Weather?
 
-Because it's free (as in no money, time, or energy) and could potentially be useful down the line. 
+Because it's free *(as in no money, time, or energy)* and could potentially be useful down the line. 
 
 Tracking weather can reveal:
 

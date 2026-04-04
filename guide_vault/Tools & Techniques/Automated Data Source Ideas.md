@@ -117,6 +117,8 @@ You can get:
 
 - A log of any weather predictions for wherever you are on a given day
 
+For more, see [[Weather Tracking]]
+
 ### App Opens
 
 You can get:

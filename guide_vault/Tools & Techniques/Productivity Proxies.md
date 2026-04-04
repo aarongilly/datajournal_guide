@@ -6,6 +6,4 @@ Image
 
 # Details
 
-
-
-Stuff 
+- [/] ...Figure out the sleepy Mac issue first #todo
