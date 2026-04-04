@@ -124,7 +124,18 @@ For more, see [[Weather Tracking]]
 You can get:
 
 - A log of every time you open any particular app you care to track
+# Obsidian (or any File-based Activity)
 
+If you use Obsidian, you can use a **shell script** to...
+
+Within a given (set of) directory(ies):
+
+1. Find all files **created** since yesterday
+2. Find all files **edited** since yesterday
+3. Count the above or list their names
+4. Send those data to your Data Journal
+
+For more, see [[Obsidian and File Tracking]]
 ## Other Services
 
 Things I'm not actively using, but have in the past (or, at the very least, am aware of).

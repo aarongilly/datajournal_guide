@@ -20,7 +20,12 @@ If you've got an Android phone, you almost certainly have this.
 
 ## Why get Your Google Timeline Data?
 
-... #todo 
+It's cool? 
+
+If you need more – you can track:
+
+- Time spent at various locations
+- Time spent in various modes of transport *← e.g. above*
 
 ## Process Overview
 

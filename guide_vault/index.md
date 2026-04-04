@@ -2,19 +2,14 @@
 title: The Data Journal Guide
 ---
 > [!success] Clearly see the person you are becoming, one day at a time.
+> **Build your own time-indexed, data-imbued personal journal to help remember the past, be more mindful in the present, and steer yourself toward a better future.**
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRagGFfPo9ucvLswgXd5e-SwSaNjFQBcIfIPUKny3Ac-ZfcxIHeC3NUdwI2jSn7jOSKvKPfAS3nUjUX/pubhtml?widget=true&amp;headers=false" width=100% height=300px></iframe>
 
 Most people rely on memory and intuition to understand their life—but memory is imperfect, and intuition works best when calibrated against real data. A Data Journal is a system for tracking what matters to you and turning it into something you can examine and learn from. Build your own, and you put yourself in the driver’s seat with a durable, powerful engine for clarity, accountability, and intentional living.
 
-![[index 2026-03-21 08.53.09.excalidraw.svg|81]]
-%%[[index 2026-03-21 08.53.09.excalidraw.md|🖋 Edit in Excalidraw]]%%
-
 I am not selling anything. There are no ads. This website is not for money. 
 I want to share an idea that's massively improved my life for 13+ years.
-
-The point of this website is to help you:
-
-> [!tldr]
-> **Build your own time-indexed, data-imbued personal journal to help remember the past, be more mindful in the present, and steer yourself toward a better future.**
 
 ## Topics
 
@@ -34,6 +29,9 @@ The point of this website is to help you:
 
 - [[Automated Data Source Ideas]]
 - [[Weather Tracking]]
+- [[Oura Data Puller Setup]]
+- [[Obsidian and File Tracking]]
+- [[Google Timeline Extraction]]
 
 ### About
 
@@ -51,8 +49,7 @@ Planned content not yet finished:
 ### Tracking Topics & Ideas
 
 - Things you might consider tracking
-- Data that already probably exist in devices and services you use
-- [[Oura Data Puller Setup]]
+- Additional guides
 
 ### A Google-less Option
 
