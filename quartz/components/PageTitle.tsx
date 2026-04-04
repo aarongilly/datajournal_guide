@@ -10,8 +10,8 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const imgSrcLight = joinSegments(baseDir, "static/datajournal.svg")
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a><img src={imgSrcLight} alt="Logo" style="height: 1em; padding-right: 0.25em; margin: 0px; display: var(--img-light-display);" />
-      <img src={imgSrcDark} alt="Logo" style="height: 1em; padding-right: 0.25em; margin: 0px; display: var(--img-dark-display);" />{title}</a>
+      <a><img src={imgSrcLight} alt="Logo" style="height: 1em; padding-right: 0.25em; margin: 0px;" class="light-only" />
+      <img src={imgSrcDark} alt="Logo" style="height: 1em; padding-right: 0.25em; margin: 0px;" class="dark-only" />{title}</a>
     </h2>
   )
 }

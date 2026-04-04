@@ -22,3 +22,23 @@ img {
     display: inline;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .light-only {
+    display: inline;
+  }
+
+  .dark-only {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .light-only {
+    display: none;
+  }
+
+  .dark-only {
+    display: inline;
+  }
+}
