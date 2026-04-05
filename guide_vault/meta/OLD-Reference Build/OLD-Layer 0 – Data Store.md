@@ -1,10 +1,6 @@
 ---
 aliases:
-  - Google Sheets
-  - Layer 0
-  - Data Store
 tags:
-  - ReferenceBuild
 ---
 # Overview
 

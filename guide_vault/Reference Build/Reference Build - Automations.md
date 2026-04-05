@@ -7,22 +7,13 @@ tags:
 ---
 # Overview
 
-> [!tldr] How to automate basic Data Journal maintenance
-> 
-> - [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|The Reference Build Guide Overview]]
->     
+> [!tldr] How to build the fundamental Data Journal structure
+> - [[Reference Build - Guide|Reference Build Guide]]
 > - How-tos:
->     
->     - [[meta/OLD-Reference Build/OLD-Layer 0 – Data Store|Step 0]]
->         
->     - [[OLD-Layer 1 – Automations|Step 1]] 👈 you are here
->         
->     - [[meta/OLD-Reference Build/OLD-Layer 2 – Integrations|Step 2]]
->         
->     - [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input|Step 3]]
->         
->     - [[meta/OLD-Reference Build/OLD-Layer 4 – Widgets|Step 4]]
->         
+> 	- [[Reference Build - The Data Store]] 
+> 	- [[Reference Build - Automations]] 👈 you are here
+> 		- ...
+> 	- [[Reference Build - Integrations]]
 
 Automation reduces the amount of **routine maintenance** required to keep a Data Journal working smoothly.
 

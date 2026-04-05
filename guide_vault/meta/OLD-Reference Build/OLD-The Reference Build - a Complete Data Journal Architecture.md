@@ -1,8 +1,6 @@
 ---
 aliases:
-  - Reference Build
 tags:
-  - ReferenceBuild
 ---
 # Overview
 

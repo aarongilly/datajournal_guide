@@ -5,7 +5,7 @@ Having a forecast of the day's weather can give you insights on how the weather 
 After a one-time setup, you can enable **automatic tracking of the daily forecast at your current location**.
 
 > [!note]
-> This assumes you're using an iPhone, iPad, or Mac and that you've implemented [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input|Layer 3]]
+> This assumes you're using an iPhone, iPad, or Mac and that you've implemented [[Reference Build - Integrations|Integrations]]
 
 ![[weather_shortcut_dictionary.png]]
 

@@ -1,12 +1,6 @@
 ---
 aliases:
-  - Siri Shortcut
-  - Shortcut
-  - Shortcuts
-  - Layer 3
-  - Fast Input
 tags:
-  - ReferenceBuild
 ---
 # Overview 
 

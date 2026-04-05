@@ -13,7 +13,7 @@ The Reference Build is comprised of 3 main components: **Data Store, Automations
 
 Every aspect of the reference build is optional - only build what seems useful to you.
 
-![[Reference Build - Guide 2026-04-04 17.40.57.excalidraw.svg]]
+![[Reference Build - Guide 2026-04-04 17.40.57.excalidraw.svg|375]]
 %%[[Reference Build - Guide 2026-04-04 17.40.57.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 # Details

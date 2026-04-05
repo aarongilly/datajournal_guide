@@ -1,10 +1,6 @@
 ---
 aliases:
-  - Google Apps Script
-  - Layer 1
-  - Automation
 tags:
-  - ReferenceBuild
 ---
 # Overview
 

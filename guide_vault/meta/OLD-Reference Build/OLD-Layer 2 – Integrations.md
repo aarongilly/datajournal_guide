@@ -1,12 +1,6 @@
 ---
 aliases:
-  - Web Hook
-  - Web App
-  - Custom API
-  - Layer 2
-  - Integrations
 tags:
-  - ReferenceBuild
 ---
 # Overview
 
