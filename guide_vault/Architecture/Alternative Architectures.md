@@ -2,7 +2,7 @@
 
 There's many ways you could architect a Data Journal
 
-1. **File-oriented Google Build**  (aka the [[The Reference Build - a Complete Data Journal Architecture|Reference Build]])
+1. **File-oriented Google Build**  (aka the [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|Reference Build]])
    One big Google Sheets workbook
 2. **Folder-oriented Google Build**
    Many Google Sheets workbooks in a folder
@@ -11,7 +11,7 @@ There's many ways you could architect a Data Journal
 4. **Folder-oriented self-hosted**
    Many CSV files in a folder
 
-I've done all of these to some extent. I recommend the [[The Reference Build - a Complete Data Journal Architecture|Reference Build]] as the high point of regular-life workability. 
+I've done all of these to some extent. I recommend the [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|Reference Build]] as the high point of regular-life workability. 
 
 ![[Alternative Architectures 2026-03-29 13.38.56.excalidraw.svg]]
 %%[[Alternative Architectures 2026-03-29 13.38.56.excalidraw.md|🖋 Edit in Excalidraw]]%%

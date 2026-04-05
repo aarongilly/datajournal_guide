@@ -16,7 +16,7 @@ These are the best practices I've arrived at after empirical observation of what
 Many Data Journal best practices are generalizable to all data analysis
 
 > [!tip]
-> [[The Reference Build - a Complete Data Journal Architecture|The Reference Build]] implements these best practices.
+> [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|The Reference Build]] implements these best practices.
 ### Every row is the same
 
 Other than the header, every row should be the same format and have the same content as every other row. **You should able to export any sheet to CSV**. 

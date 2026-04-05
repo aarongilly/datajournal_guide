@@ -83,7 +83,7 @@ exit 0
 
 #### Actual Data Journal Writer Script
 
-This assumes you're using the [[The Reference Build - a Complete Data Journal Architecture|Reference Build]] web app. You'd still need to tweak the paths you're watching & your web app url:
+This assumes you're using the [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|Reference Build]] web app. You'd still need to tweak the paths you're watching & your web app url:
 
 Bash
 

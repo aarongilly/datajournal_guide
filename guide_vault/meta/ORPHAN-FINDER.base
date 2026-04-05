@@ -1,0 +1,78 @@
+filters:
+  and:
+    - file.tags.contains("todo")
+formulas:
+  Broken Links: file.links.filter(!value.asFile().isTruthy())
+  Referrer: file.backlinks.map(file(value))
+  Size (kB): (file.size/1024).round(1)
+  Preview: image(file)
+views:
+  - type: list
+    name: Broken Links
+    filters:
+      and:
+        - formula["Broken Links"]
+    order:
+      - file.name
+      - formula.Broken Links
+    indentProperties: true
+  - type: cards
+    name: Orphaned Images (cards)
+    filters:
+      and:
+        - '["avif","bmp","gif","jpeg","jpg","png","svg","webp"].contains(file.ext)'
+        - formula.Referrer.isEmpty()
+    order:
+      - file.name
+      - file.ext
+      - formula.Size (kB)
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ext
+        direction: ASC
+    imageFit: contain
+    image: file.file
+  - type: table
+    name: Orphaned Images (table)
+    filters:
+      and:
+        - '["avif","bmp","gif","jpeg","jpg","png","svg","webp"].contains(file.ext)'
+        - formula.Referrer.isEmpty()
+    order:
+      - file.name
+      - formula.Preview
+      - file.ext
+      - formula.Size (kB)
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ext
+        direction: ASC
+  - type: table
+    name: Orphaned Files
+    filters:
+      and:
+        - '!["avif","bmp","gif","jpeg","jpg","png","svg","webp","md","base","canvas"].contains(file.ext)'
+        - formula.Referrer.isEmpty()
+    order:
+      - file.name
+      - file.ext
+      - formula.Size (kB)
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ext
+        direction: ASC
+  - type: list
+    name: Empty Files
+    filters:
+      and:
+        - file.size == 0
+    order:
+      - file.name
+  - type: table
+    name: TODOS

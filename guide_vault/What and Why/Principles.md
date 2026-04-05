@@ -5,7 +5,7 @@
 
 A collection of principles that make Data Journals successful in the long run.
 
-The [[Best Practices]] align to these principles. The [[The Reference Build - a Complete Data Journal Architecture|Reference Build]] embodies them.
+The [[Best Practices]] align to these principles. The [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|Reference Build]] embodies them.
 
 Image
 

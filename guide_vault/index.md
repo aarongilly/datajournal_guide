@@ -25,8 +25,8 @@ I want to share an idea that's massively improved my life for 13+ years.
 
 ### The Reference Build
 
-- [[Example Data Journal|What does one look like?]]
-- [[The Reference Build - a Complete Data Journal Architecture|How could I make one?]]
+- [[Reference Build - Full Example|What does one look like?]]
+- [[Reference Build - Guide|How could I make one?]]
 
 ### Tools & Techniques
 
@@ -43,7 +43,7 @@ I want to share an idea that's massively improved my life for 13+ years.
 
 ### Architecture
 
-- [[C4 Model]] depicting the reference build
+- [[C4 Reference Model]] depicting the reference build
 
 ## Coming Soon™️
 

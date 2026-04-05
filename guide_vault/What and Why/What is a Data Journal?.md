@@ -67,7 +67,7 @@ Over time, you'll probably want to add more things - perhaps growing beyond a si
 
 ![[example_data_journal.png]]
 
-A more realistic Data Journal might include additional columns and tables for different time scales (for example, a "Days" sheet and a "Weeks" sheet). You may also have tables dedicated to particular types of things you want to track that don't fit well into the day/week/year-per-row organizational paradigm. [[The Reference Build - a Complete Data Journal Architecture|The Reference Build]] shows how this works.
+A more realistic Data Journal might include additional columns and tables for different time scales (for example, a "Days" sheet and a "Weeks" sheet). You may also have tables dedicated to particular types of things you want to track that don't fit well into the day/week/year-per-row organizational paradigm. [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|The Reference Build]] shows how this works.
 
 ## 🌹 A Rose by Any Other Name
 

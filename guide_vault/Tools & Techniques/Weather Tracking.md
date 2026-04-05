@@ -5,7 +5,7 @@ Having a forecast of the day's weather can give you insights on how the weather 
 After a one-time setup, you can enable **automatic tracking of the daily forecast at your current location**.
 
 > [!note]
-> This assumes you're using an iPhone, iPad, or Mac and that you've implemented [[Layer 3 – Fast Input|Layer 3]]
+> This assumes you're using an iPhone, iPad, or Mac and that you've implemented [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input|Layer 3]]
 
 ![[weather_shortcut_dictionary.png]]
 
@@ -24,14 +24,14 @@ Tracking weather can reveal:
 
 ## How to Setup the Automation
 
-Step 0 → build [[The Reference Build - a Complete Data Journal Architecture|the reference build]] up to [[Layer 2 – Integrations|Layer 2]]. This technique is just a specific implementation of [[Layer 3 – Fast Input|Layer 3]].
+Step 0 → build [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|the reference build]] up to [[meta/OLD-Reference Build/OLD-Layer 2 – Integrations|Layer 2]]. This technique is just a specific implementation of [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input|Layer 3]].
 
 1. Create a "Weather" sheet in your Data Journal
 2. Create a Siri Shortcut. 
 3. Create a nightly automation that runs the shortcut.
 ### Weather Siri Shortcut - "Track Forecast"
 
-Shortcuts offers a `Get Weather Forecast` action. This shortcut simply runs that, grabs select details, loads them to a dictionary and hands off to [[Layer 3 – Fast Input#Write to Spreadsheet|the write to spreadsheet shortcut]].
+Shortcuts offers a `Get Weather Forecast` action. This shortcut simply runs that, grabs select details, loads them to a dictionary and hands off to [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input#Write to Spreadsheet|the write to spreadsheet shortcut]].
 
 ![[weather_shortcut_start.png]]
 
@@ -49,7 +49,7 @@ Shortcuts offers a `Get Weather Forecast` action. This shortcut simply runs that
 | Wind Speed       | 8.52                            |
 
 1. Repeat as desired
-2. Build the [[Layer 3 – Fast Input#Common Ending Actions|Dictionary]] and send it to the write to spreadsheet shortcut
+2. Build the [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input#Common Ending Actions|Dictionary]] and send it to the write to spreadsheet shortcut
 
 Run it nightly
 
