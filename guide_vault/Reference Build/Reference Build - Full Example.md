@@ -1,6 +1,7 @@
 ---
 aliases:
   - Reference Build
+  - The Reference Build
 tags:
   - ReferenceBuild
 ---
@@ -308,6 +309,7 @@ Having a simple CSV with your data on means, even if Google Sheets were to sudde
 Another realm of automation is the automated **fetching of available data**.
 
 ![[Reference Build - Full Example 2026-04-04 22.08.48.excalidraw.svg]]
+
 %%[[Reference Build - Full Example 2026-04-04 22.08.48.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 If you've got the skill and a data source you can think to use, trigger recurrent data fetching jobs. Have Google Apps Script automation get & place the data *for* you.
@@ -364,6 +366,7 @@ You can literally open up any web browser, type in your web app URL and get back
 The first superpower.
 
 ![[Reference Build - Full Example 2026-04-04 22.24.43.excalidraw.svg]]
+
 %%[[Reference Build - Full Example 2026-04-04 22.24.43.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 With an HTTP POST route (i.e. a `doPost()` function in your Google Apps Script, deployed as a Web App) then *anything that can send an HTTP Post request (e.g. your phone and services like IFTTT)* can write data **directly to your Data Journal** on an as-needed basis. 
@@ -375,6 +378,7 @@ Without fast input, you mostly interact with your Data Journal during the nightl
 Using Apple's ("Siri") Shortcuts, **one-tap, voice command, or context-triggered automations** can send data directly to your system.
 
 ![[Reference Build - Full Example 2026-04-04 22.41.28.excalidraw.svg]]
+
 %%[[Reference Build - Full Example 2026-04-04 22.41.28.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 Instead of waiting until night, you can log something **in the moment**.
@@ -423,6 +427,7 @@ Your nightly review stays simple, while the rest of your life can still feed dat
 The second superpower.
 
 ![[Reference Build - Full Example 2026-04-04 23.11.36.excalidraw.svg]]
+
 %%[[Reference Build - Full Example 2026-04-04 23.11.36.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 With an HTTP GET route (i.e. a `doGet()` function in your Google Apps Script, deployed as a Web App) then *anything connected to the internet* get read **from your Data Journal** on an as-needed basis. 
@@ -434,5 +439,5 @@ After building a widget - you can see your data right on your Home Screen.
 ![[Example_Widget.jpeg|450]]
 
 [^1]: In [[My (Real) Data Journal]] I don't have **any** columns in the `weeks` sheet I enter by hand.
-[^2]: or [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input|REST API, Webhook, etc]] - pick your favorite name.
+[^2]: or [[Input Shortcuts|REST API, Webhook, etc]] - pick your favorite name.
 [^3]: or Alexa or the Google Assistant

@@ -9,6 +9,7 @@ Building your own gives you control to shape it, the **know-how to benefit from
 This page explains a few reasons you might consider building one.
 
 ![[Why build a Data Journal? 2026-03-07 22.50.33.excalidraw.svg]]
+
 %%[[Why build a Data Journal? 2026-03-07 22.50.33.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 # Details

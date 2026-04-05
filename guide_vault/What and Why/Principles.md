@@ -1,11 +1,13 @@
 > [!warning] Under construction 🚧
 > This page is not yet "finished".
 
+#todo
+
 # Overview
 
 A collection of principles that make Data Journals successful in the long run.
 
-The [[Best Practices]] align to these principles. The [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|Reference Build]] embodies them.
+The [[Best Practices]] align to these principles. [[Reference Build - Full Example|The Reference Build]] embodies them.
 
 Image
 
@@ -18,12 +20,11 @@ Image
 
 - **Keep it simple**
 	- Do the least you can do to achieve the desired effect.
-	- 
-- Each piece should be as small and self-contained as possible
-	- 
-- Make it easy
+- **Make it easy**
 	- If it's tedious to track, you won't keep doing it
-- Think on very long time scales
-	- 
 - Design for change
 	- You won't know what you will care about in 5 years, don't lock yourself into a rigid data structure that cannot change over time.
+- Each piece of the system should be as small and self-contained as possible
+	- 
+- Think on very long time scales
+	- 

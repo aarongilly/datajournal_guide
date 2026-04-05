@@ -8,7 +8,7 @@ tags:
 # Overview
 
 > [!tldr] How to build the fundamental Data Journal structure
-> - [[Reference Build - Guide|Reference Build Guide]]
+> - [[Reference Build - Guide Overview|Reference Build Guide]]
 > - How-tos:
 > 	- [[Reference Build - The Data Store]] 👈 you are here
 > 		- [[#Per-Period Only Option]]
@@ -21,13 +21,14 @@ The [[Reference Build - Full Example|Reference Build]] is based on Google Sheets
 
 Sheets are of 3 main types:
 
-1) **Per-period** sheets  (e.g. `days`, `weeks`, `months`, `years`).
-2) **Per-event** sheets (e.g. `workouts`, `outings`)
+1) **Per-Period** sheets  (e.g. `days`, `weeks`, `months`, `years`).
+2) **Per-Event** sheets (e.g. `workouts`, `outings`)
 3) **Analysis** sheets (e.g. `charts`, `PivotTable`)
 
 ![[example_data_journal.png]]
 
 This structure keeps the data **simple, consistent, and easy to analyze with formulas, charts, & PivotTables**.
+
 # Details
 
 > [!question] Why Google Sheets?
@@ -37,19 +38,18 @@ This structure keeps the data **simple, consistent, and easy to analyze with fo
 > 
 > <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRagGFfPo9ucvLswgXd5e-SwSaNjFQBcIfIPUKny3Ac-ZfcxIHeC3NUdwI2jSn7jOSKvKPfAS3nUjUX/pubhtml?widget=true&amp;headers=false" width=100% height=300px></iframe>
 
-
 The Reference Build uses a Google Sheets workbook with several individual sheets. 
 
-| Sheet Type | Sheet Name                                                                   | Each row covers        | Description                                                                                            |
-| ---------- | ---------------------------------------------------------------------------- | ---------------------- | ------------------------------------------------------------------------------------------------------ |
-| Per-Period | [[meta/OLD-Reference Build/OLD-Example Data Journal#Days\|days]]             | One day                | The bread & butter of a Data Journal. One row per day.                                                 |
-| Per-Period | [[meta/OLD-Reference Build/OLD-Example Data Journal#Weeks\|weeks]]           | One week               | Mostly formulas + one per-week data point.                                                             |
-| Per-Period | [[meta/OLD-Reference Build/OLD-Example Data Journal#Months\|months]]         | One month              | Mostly formulas + some monthly data points.                                                            |
-| Per-Period | [[meta/OLD-Reference Build/OLD-Example Data Journal#Years\|years]]           | One year               | Mostly formulas + a yearly data point.                                                                 |
-| Per-Event  | [[meta/OLD-Reference Build/OLD-Example Data Journal#Workouts\|workouts]]     | One *workout*          | Example of a sheet whose rows are *per instance of a thing* rather than *per time period*.             |
-| Per-Event  | [[meta/OLD-Reference Build/OLD-Example Data Journal#Events\|events]]         | One *event occurrence* | Another example showing how to handle data that doesn't neatly fit into a "per time period" structure. |
-| Analysis   | [[meta/OLD-Reference Build/OLD-Example Data Journal#PivotTable\|PivotTable]] | -                      | A PivotTable for ad hoc data analysis.                                                                 |
-| Analysis   | [[#Charts]]                                                                  | -                      | A place to house charts for data visualizaiton.                                                        |
+| Sheet Type | Sheet Name                                                | Each row covers | Description                                                                                            |
+| ---------- | --------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------ |
+| Per-Period | [[Reference Build - Full Example#Days\|days]]             | One day         | The bread & butter of a Data Journal. One row per day.                                                 |
+| Per-Period | [[Reference Build - Full Example#Weeks\|weeks]]           | One week        | Mostly formulas + one per-week data point.                                                             |
+| Per-Period | [[Reference Build - Full Example#Months\|months]]         | One month       | Mostly formulas + some monthly data points.                                                            |
+| Per-Period | [[Reference Build - Full Example#Years\|years]]           | One year        | Mostly formulas + a yearly data point.                                                                 |
+| Per-Event  | [[Reference Build - Full Example#Workouts\|workouts]]     | One *workout*   | Example of a sheet whose rows are *per instance of a thing* rather than *per time period*.             |
+| Per-Event  | [[Reference Build - Full Example#Outings\|outings]]       | One *outing*    | Another example showing how to handle data that doesn't neatly fit into a "per time period" structure. |
+| Analysis   | [[Reference Build - Full Example#PivotTable\|PivotTable]] | -               | A PivotTable for ad hoc data analysis.                                                                 |
+| Analysis   | [[#Charts]]                                               | -               | A place to house charts for data visualization.                                                        |
 
 Each sheet is shown and documented extensively in [[Reference Build - Full Example|The Example Data Journal Page]]. 
 
@@ -64,19 +64,18 @@ Each sheet is shown and documented extensively in [[Reference Build - Full Examp
 
 First decide - do I want to track things that may happen more than once per day? 
 
-Each of the following 3 options 
 ### Per-Period Only Option
 
 > [!success] A great starting point!
-> I ran [[My (Real) Data Journal]] like this for 7 years. It works well! You **can** start here and *per-event* sheets later, if you so choose.
+> I ran [[My (Real) Data Journal]] like this for 7 years. It works well! You **can** start here and add *Per-Event* sheets later, if you so choose.
 
 1. Read [[Reference Build - Full Example#Foundation - The Data Store|about the example Google Sheets Data Store]]
 2. Make a copy of [the actual example Google Sheet](https://docs.google.com/spreadsheets/d/18zoE1iJnyUge3CJdH0obU69Ts-jdFrNCmIQyzKPlE7I/edit?usp=sharing)
 3. Clear the example rows from each sheet (leave the header and formulas)
 4. Update the starting date so the journal begins **today**.
 	1. e.g. Change cell `Days!A2` to be today's date
-5. **Delete** the example *per-event* sheets (`workouts` and `outings`) 
-	1. **Delete** the columns in the *per-period* sheets that reference the now-deleted sheets
+5. **Delete** the example *Per-Event* sheets (`workouts` and `outings`) 
+	1. **Delete** the columns in the *Per-Period* sheets that reference the now-deleted sheets
 6. Start tracking things!
 7. Highly recommend moving on to the next step: [[Reference Build - Automations|Automations]]
 8. Eventually consider adding analysis sheets, including things like [[Reference Build - Full Example#Charts|Charts]] and [[Reference Build - Full Example#PivotTable|PivotTables]].
@@ -84,9 +83,9 @@ Each of the following 3 options
 ### Per-Event Only Option
 
 > [!warning] Least preferred option
-> There's no reason this wouldn't work, but I've never **not** done *per-period*. I'd recommend doing [[#Full Build (both) Option|Full Build]] rather than *just* this.  
+> There's no reason this wouldn't work, but I've never **not** done *Per-Period*. I'd recommend doing [[#Full Build (both) Option|Full Build]] rather than *just* this.  
 > 
-> Put another way: **per-period** is kind of what the Data Journal is all about.
+> Put another way: **Per-Period** is kind of what the Data Journal is all about.
 
 1. Read [[Reference Build - Full Example#Foundation - The Data Store|about the example Google Sheets Data Store]]
 2. Make a copy of [the actual example Google Sheet](https://docs.google.com/spreadsheets/d/18zoE1iJnyUge3CJdH0obU69Ts-jdFrNCmIQyzKPlE7I/edit?usp=sharing)
@@ -112,6 +111,7 @@ Each of the following 3 options
 7. Consider adding analysis sheets, including things like [[Reference Build - Full Example#Charts|Charts]] and [[Reference Build - Full Example#PivotTable|PivotTables]].
 
 ---
+
 # What This Enables
 
 With the Data Store in place:
@@ -131,6 +131,7 @@ If you stopped here, you would have a **fully functional manual Data Journal**.
 You could log data directly in the spreadsheet, use formulas and PivotTables for analysis, and review patterns over time.
 
 ---
+
 ## Next Step
 
 The next layer removes much of that manual maintenance.

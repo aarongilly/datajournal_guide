@@ -13,7 +13,9 @@ A Data Journal is ***not***:
 It's something you build and shape yourself, for yourself - to be used not for days or weeks, but for **life**.
 
 ![[What is a Data Journal? 2026-03-05 16.50.54.excalidraw.svg]]
+
 %%[[What is a Data Journal? 2026-03-05 16.50.54.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
 # Details
 
 A Data Journal combines:
@@ -33,16 +35,19 @@ Those three together create something unique.
 Data Journal is many things:
 
 **Personal record**
+
 - a time-indexed ledger of your life
 - a collection of useful data you build yourself
 - a repository of reference information about your past
 
 **Tool for reflection**
+
 - a place for journaling and self-reflection
 - a way to see patterns in your behavior
 - a source of clarity about how life is going
 
 **System for growth**
+
 - a habit tracker
 - a system you can use for goal-setting
 - a tool for intentional self-improvement

@@ -4,15 +4,6 @@ tags:
 ---
 # Overview 
 
-> [!tldr] How to build fast *(and automated!)* data tracking
-> - [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|The Reference Build Guide Overview]]
-> - How-tos:
-> 	- [[meta/OLD-Reference Build/OLD-Layer 0 – Data Store|Step 0]] 
-> 	- [[OLD-Layer 1 – Automations|Step 1]]
-> 	- [[meta/OLD-Reference Build/OLD-Layer 2 – Integrations|Step 2]]
-> 	- [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input|Step 3]]  👈 you are here
-> 	- [[meta/OLD-Reference Build/OLD-Layer 4 – Widgets|Step 4]]
-
 If you have an Apple product, you have access to Shortcuts. Shortcuts can be used to make it **fast and easy to track data** via a variety of means.
 
 Types of Data Journal shortcuts:
@@ -23,14 +14,15 @@ Types of Data Journal shortcuts:
 
 Shortcut **automations** can run based on a huge number of [[#Available Automation Triggers]].
 
-![[Shortcuts_Grid.jpeg|450]]
+This assumes you've built & deployed the [[Reference Build - Integrations#POST Route Integrations|POST Route]] Web App.
+
+![[Input Shortcuts 2026-04-05 13.35.36.excalidraw.svg]]
+%%[[Input Shortcuts 2026-04-05 13.35.36.excalidraw.md|🖋 Edit in Excalidraw]]%%
+
+
 # Details
 
-With [[meta/OLD-Reference Build/OLD-Layer 2 – Integrations]] you created a **webhook URL** that allows external tools to send data to and read data from your Data Journal. That means you can get to that data via anything that can make a web request.
-
 The Shortcuts App is baked into every Apple product you can buy. If you have an iPhone, Apple Watch, iPad, or Mac, then you already have it.
-
-This is **Layer 3**; and it leverages the web app from **Layer 2**. 
 
 > [!hint] How Aaron does it
 > In [[My (Real) Data Journal]] **most** of the tracked data come via Shortcuts scripts.
@@ -42,12 +34,15 @@ This is **Layer 3**; and it leverages the web app from **Layer 2**.
 > - Outings
 > - Pains
 > - Location
+>
+> ![[Shortcuts_Grid.jpeg|450]]
 
 ## Shortcut Chains
 
 Rather than building one _huge_ shortcut, it’s better to chain together multiple **small, single-purpose shortcuts**.
 
 ![[Layer 3 – Fast Input 2026-03-14 10.55.09.excalidraw.svg]]
+
 %%[[Layer 3 – Fast Input 2026-03-14 10.55.09.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 There are 3 main types:
@@ -57,6 +52,8 @@ There are 3 main types:
 - [[#Write to Spreadsheet]] - send data to your web hook
 
 ### How To
+
+This assumes you've built & deployed the [[Reference Build - Integrations#POST Route Integrations|POST Route]] Web App.
 
 1. Open the Shortcuts app on any Apple device 
 	🔥 **TIP:** building Shortcuts on the Mac is easier than doing it on the phone
@@ -76,7 +73,7 @@ This allows you to make **one button** on your Home Screen that you can use to q
 
 Each of those is an entry point to a collection of related shortcuts. The blue "Track" shortcut always lives on my real Home Screen.
 
-#### Choose from Menu
+### Choose from Menu
 
 Insert titles you want to choose from. Then below that insert a **Run Shortcut** action for the *Track Something* shortcut you want.
 
@@ -115,12 +112,12 @@ The last two actions ([[#Dictionary]] & [[#Run Shortcut]]) are the same for all 
 
 ![[Dictionary.png]]
 
-This assumes you are using the code from [[meta/OLD-Reference Build/OLD-Layer 2 – Integrations]]. You are creating a *dictionary* that will be sent to the [[#Write to Spreadsheet]] shortcut.
+You are creating a *dictionary* that will be sent to the [[#Write to Spreadsheet]] shortcut.
 
 The dictionary does two things:
 
 1. Specify the `sheet` name - where the data will go
-2. List the data for `columns` G
+2. List the data to be contained starting with **Column F** (the first column after `Timestamp`)
 
 | Key       | Value                                                                                                                                 |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -128,6 +125,7 @@ The dictionary does two things:
 | `sheet`   | Name of the Target sheet                                                                                                              |
 
 ![[Layer 3 Reference Build Guide – Fast Input 2026-03-14 21.27.11.excalidraw.svg]]
+
 %%[[Layer 3 Reference Build Guide – Fast Input 2026-03-14 21.27.11.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 #### Run Shortcut
@@ -150,7 +148,7 @@ This shortcut is one action: `Get contents of URL`.
 
 It takes inputs given to it by other shortcuts, then sends them to your webhook via an HTTP POST request. 
 
-#### Get contents of URL
+### Get contents of URL
 
 | Parameter Name | Value                   |
 | -------------- | ----------------------- |
@@ -189,9 +187,9 @@ Your phone and computer can **run any shortcut automatically** based on various 
 > [!hint] How Aaron does it
 > At 3:30 AM my phone automatically runs my "Track Location" shortcut. I have an automated record of the city & state where I slept each night.
 
-# What This Layer Enables
+# What This Enables
 
-With fast input in place:
+With input shortcuts in place:
 
 - tracking data becomes **quick and frictionless**
 - you can log information directly from any Apple device using you voice or a keyboard
@@ -199,21 +197,3 @@ With fast input in place:
 - automations can record events **without manual input**
 
 The Data Journal is no longer just something you update manually — it can now **collect data continuously throughout the day**.
-
-## If You Stopped Here
-
-If you stopped here, you would have a **highly practical Data Journal**. This is another **great** stopping point. 
-
-You could quickly log information from your phone, automate the collection of data, and build a growing dataset about your daily life with very little effort.
-
-This is where the system becomes **truly useful**.
-
----
-
-# Next Step
-
-At this point the Data Journal is collecting useful data — but it still mostly lives **inside the spreadsheet**.
-
-The final layer focuses on **visibility**: surfacing the most useful parts of your journal throughout the day.
-
-→ [[meta/OLD-Reference Build/OLD-Layer 4 – Widgets]]

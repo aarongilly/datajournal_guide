@@ -26,7 +26,7 @@ I want to share an idea that's massively improved my life for 13+ years.
 ### The Reference Build
 
 - [[Reference Build - Full Example|What does one look like?]]
-- [[Reference Build - Guide|How could I make one?]]
+- [[Reference Build - Guide Overview|How could I make one?]]
 
 ### Tools & Techniques
 

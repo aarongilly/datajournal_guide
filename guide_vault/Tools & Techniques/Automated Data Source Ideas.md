@@ -102,7 +102,7 @@ This process involves getting the photos from your phone to your computer, then 
 
 I love Shortcuts. Use it all the time. So useful for this.
 
-For more, see [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input#Shortcut Automations]].
+For more, see [[Input Shortcuts#Shortcut Automations]].
 
 ### Location
 

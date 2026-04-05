@@ -1,11 +1,11 @@
-- [ ] Reference Build
+- [x] Reference Build
 	- [x] Most Basic Google Sheets setup
 	- [x] PivotTables
 	- [x] Google Apps Script Tutorial
 	- [x] Siri Shortcuts GET & POST Requests
 	- [x] Multi-sheet Workbook (sheets on a per-event basis)
 	- [x] Scriptable Widgets
-	- [ ] Automated CSV Backups
+	- [x] Automated CSV Backups
 - [x] Alternative Architectures
 	- [ ] Multiworkbook Setup (Folder-based approach)
 	- [ ] Notion

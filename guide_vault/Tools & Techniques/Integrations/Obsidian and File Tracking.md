@@ -1,3 +1,7 @@
+---
+aliases:
+  - Shell Scripts
+---
 # Overview
 
 You can set up automations to gather and report the volume of changes to files in specific directories (& sub-directories) on your computer. 

@@ -4,16 +4,9 @@ tags:
 ---
 # Overview
 
-> [!tldr] How to build a live view of your data on your home screen
-> - [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|The Reference Build Guide Overview]]
-> - How-tos:
-> 	- [[meta/OLD-Reference Build/OLD-Layer 0 – Data Store|Step 0]] 
-> 	- [[OLD-Layer 1 – Automations|Step 1]]
-> 	- [[meta/OLD-Reference Build/OLD-Layer 2 – Integrations|Step 2]]
-> 	- [[meta/OLD-Reference Build/OLD-Layer 3 – Fast Input|Step 3]]  
-> 	- [[meta/OLD-Reference Build/OLD-Layer 4 – Widgets|Step 4]] 👈 you are here
+This page shows how to add a Data Journal widget right on your iPhone, iPad, or Mac's Home Screen with the [Scriptable](https://apps.apple.com/app/id1405459188) app. Increase goal presence in your life. Keep your goals and daily data visible throughout the day — or simply maintain a live log of what you've done.
 
-This page shows how to add a Data Journal widget right on your iPhone, iPad, or Mac's Home Screen with the [Scriptable](https://apps.apple.com/app/id1405459188) app. Increase goal presence in your life. Keep your goals and daily data visible throughout the day — or simply maintain a live log of what you've done
+This assumes you've built & deployed the [[Reference Build - Integrations#GET Route Integrations|GET Route]] Web App.
 
 ![[Example_Widget.jpeg|450]]
 
@@ -21,13 +14,14 @@ This page shows how to add a Data Journal widget right on your iPhone, iPad, or 
 
 > [!note]
 > I am not affiliated in any way with Scriptable. It is **paid**, but **subscription-free** app that lets you do things on your phone with JavaScript. If Pythonista allowed you to build custom Home Screen widgets I would recommend that one. 
+> 
+> The Scriptable app on iOS and iPad OS gives you a JavaScript environment you can use to build your own Home Screen widget. The widget can look like whatever you want. Your only limitation is your ability to create good-looking interfaces using JavaScript and the Scriptable Widgets API.
 
-With [[meta/OLD-Reference Build/OLD-Layer 2 – Integrations]] you created a URL that allows other tools to retrieve your Data Journal data in JSON format. That means you can get to that data via anything that can make a web request.
-
-The Scriptable app on iOS and iPad OS gives you a JavaScript environment you can use to build your own Home Screen widget. The widget can look like whatever you want. Your only limitation is your ability to create good-looking interfaces using JavaScript and the Scriptable Widgets API.
 ## How To
 
-1. Install Scriptable on your iPhone or iPad
+This assumes you've built & deployed the [[Reference Build - Integrations#GET Route Integrations|GET Route]] Web App.
+
+1. Install [Scriptable](https://apps.apple.com/app/id1405459188) on your iPhone or iPad
 2. Open Scriptable and create a new script.
 3. Copy/paste the [[#Example Code]] below
 4. Modify the `##CHANGE##` parts of the example code to:
@@ -48,7 +42,7 @@ This code uses my Google Sheet names to produce a widget showing today's data.
 
 ```JavaScript
 // ##CHANGE## YOUR WEBAPP URL HERE 
-const WEBAPP_URL = "https://script.google.com/macros/s/MYURLREDACTED/exec";
+const WEBAPP_URL = "https://script.google.com/macros/s/MYURLREDACTEDYOURSWOULDGOHERE/exec";
 
 //Load the data from your Custom API
 let journalData = await loadJournalData();
@@ -152,7 +146,7 @@ async function loadJournalData() {
 
 ```
 
-# What This Layer Enables
+# What This Enables
 
 With widgets in place:
 
@@ -160,15 +154,4 @@ With widgets in place:
 - important metrics and goals stay **top-of-mind**
 - the system becomes something you **see regularly** without the need to open a spreadsheet
 
-This layer turns the Data Journal into a **live dashboard** for your daily life.
-
----
-# Next Step
-
-There isn’t really a "next layer".
-
-The next step is simply to **live with the system** and evolve it over time.
-
-Add new things to track, build new shortcuts, and experiment with different ways to visualize your data.
-
-Over time, your Data Journal will become a **personal dataset about your life**.
+This component turns the Data Journal into a **live dashboard** for your daily life.

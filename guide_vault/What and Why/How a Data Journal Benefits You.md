@@ -3,6 +3,7 @@
 A page to supplemental arguments for [[Why build a Data Journal?]]
 
 ![[How are Data Journals Beneficial 2026-03-23 17.48.02.excalidraw.svg]]
+
 %%[[How are Data Journals Beneficial 2026-03-23 17.48.02.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 # Details
@@ -19,6 +20,7 @@ Data Journals are an excellent source of clarity.
 If you wake up and find your life is going really well (or really *not* well), you have the data to help see why - so you can help it go right more often.
 
 ![[How Data Journals Benefit You 2026-03-23 20.50.26.excalidraw.svg|291]]
+
 %%[[How Data Journals Benefit You 2026-03-23 20.50.26.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 ## Consistency
@@ -38,7 +40,5 @@ This adage comes in many forms, from many places:
 Data Journals foster consistency. 
 
 ![[How Data Journals Benefit You 2026-03-23 20.19.28.excalidraw.svg]]
+
 %%[[How Data Journals Benefit You 2026-03-23 20.19.28.excalidraw.md|🖋 Edit in Excalidraw]]%%
-
-
-
