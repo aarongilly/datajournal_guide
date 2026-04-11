@@ -7,7 +7,7 @@
 	- [x] Scriptable Widgets
 	- [x] Automated CSV Backups
 - [x] Alternative Architectures
-	- [ ] Multiworkbook Setup (Folder-based approach)
+	- [x] Multiworkbook Setup (Folder-based approach)
 	- [ ] Notion
 	- [ ] Obsidian
 	- [ ] Self-hosted Pi

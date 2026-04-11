@@ -43,6 +43,8 @@ Note: The large & slow problem hasn't really happened yet, and I've been going f
 
 ## Folder-oriented Google Build
 
+You have a dedicated "Data Journal" folder containing various Google Sheets (and any other data sets) that collectively cover all the thins you're tracking. The code to enable the [[Reference Build - Integrations|Integrations]] with this approach is [surprisingly short](https://github.com/aarongilly/simpleAppsScriptDataWriter/blob/master/webAppBase.js).
+
 I worked this way for ~2 years. It was fine, but you wound up never looking at most things.
 
 Strengths:
@@ -57,7 +59,7 @@ Weaknesses:
 
 ## File-oriented self-hosted
 
-This is akin to just building an app. 
+This is akin to just building an app. You'd make something sitting on a database. 
 
 Strengths:
 - Most scalable option
@@ -72,7 +74,11 @@ Weaknesses:
 
 ## Folder-oriented self-hosted
 
-What I'm most interested in building.
+**What I'm most interested in building.**
+
+Have a dedicated "Data Journal" *folder* that lives on your computer or phone. The data are stored in `.csv` or similar files stored in this folder. This allows you to write new data by simply appending new rows to the bottom of the relevant file, which is a pattern that's easy to implement. 
+
+If you used `.ndjson` files (newline-delimited JSON) your data writes become essentially self-contained. This approach makes *writing* very easy, but I've not yet found a tool for reading and editing that makes working with `.ndjson` files easy.
 
 Strengths:
 - Perhaps maximally durable approach?

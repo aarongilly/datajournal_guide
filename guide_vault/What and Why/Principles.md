@@ -19,12 +19,12 @@ Image
 ## Principles
 
 - **Keep it simple**
+	- Each piece of the system should be as small and self-contained as possible
+		- Interfaces between components should also be as small and simple as possible
 	- Do the least you can do to achieve the desired effect.
 - **Make it easy**
 	- If it's tedious to track, you won't keep doing it
 - Design for change
 	- You won't know what you will care about in 5 years, don't lock yourself into a rigid data structure that cannot change over time.
-- Each piece of the system should be as small and self-contained as possible
-	- 
-- Think on very long time scales
-	- 
+	- Think on very long time scales
+- 

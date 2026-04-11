@@ -6,4 +6,4 @@ These pages demonstrate things you could use as [[Reference Build - Automations#
 ![[index 2026-04-07 19.28.30.excalidraw.svg]]
 %%[[index 2026-04-07 19.28.30.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
-That is to say - things that a piece of code can *fetch* as desired. 
+That is to say - things that a piece of code can *fetch* as desired. These are *probably* rarer than things you can setup to easily **push** into the Data Journal via [[Reference Build - Integrations|Integrations]].

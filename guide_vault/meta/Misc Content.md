@@ -8,8 +8,6 @@ Yet you aren't really given the tools to really benefit from these data. They ar
 
 A data journal doesn't mean they don't have your data, but that you have it now too. And you aren't going to lose it. 
 
-
-
 # Make it Simple. Make it Easy.
 
 Simplicity is a prerequisite to long-term maintainability.
