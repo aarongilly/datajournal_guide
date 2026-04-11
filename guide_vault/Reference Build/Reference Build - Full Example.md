@@ -11,7 +11,7 @@ This page explains how **the Reference Build** Data Journal architecture works.
 
 The reference build is a highly-cohesive and loosely-coupled, modular architecture – use what you want, and don't use what you don't!
 
-Use [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture|the Reference Build Guide]] to create your own!
+Use [[Reference Build - Guide Overview|Reference Build Guide]] to create your own!
 
 ![[META 2026-04-03 12.17.24.excalidraw.svg]]
 
@@ -365,7 +365,7 @@ You can literally open up any web browser, type in your web app URL and get back
 
 The first superpower.
 
-![[Reference Build - Full Example 2026-04-04 22.24.43.excalidraw.svg]]
+![[Reference Build - Full Example 2026-04-04 22.24.43.excalidraw.svg|225]]
 
 %%[[Reference Build - Full Example 2026-04-04 22.24.43.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
