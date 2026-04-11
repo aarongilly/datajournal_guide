@@ -4,7 +4,7 @@ This page shares my real Data Journal - what I track and how its evolved.
 
 The system has been running continuously for over a decade.
 
-Structurally, it's identical to *(but larger than)* [[meta/OLD-Reference Build/OLD-The Reference Build - a Complete Data Journal Architecture]].
+Structurally, it's identical to *(but larger than)* [[Reference Build - Full Example|The Reference Build]].
 
 My real Data Journal is not public, but this page shows what it looks like and the kinds of things I track.
 
@@ -130,4 +130,6 @@ For a tiny bit more detail…
 Versions rolled each time I changed what I was tracking… most of which _also_ coincided with some form of system structure/architecture change. In general, I started by tracking a little, then a lot, then far too much. Eventually I scaled back. Now I track a medium amount — though it’s probably still what most people would consider “a lot.”
 
 > [!info]
-> If you're into architecture diagrams, check out the [[C4 Reference Model]] of the Reference Build.
+> If you're into architecture diagrams, check out:
+> - [[C4 Reference Model]]
+> - [[ArchiMate Reference Model]]
