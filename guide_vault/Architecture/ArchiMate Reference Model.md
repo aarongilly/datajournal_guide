@@ -3,6 +3,7 @@
 If you don't prefer the [[C4 Reference Model]], here's an ArchiMate one!
 
 ![[hexagonion.png|272]]
+
 # Details
 
 The [[C4 Reference Model]] is quite good. Admittedly I'm doing this mostly to practice the upcoming ArchiMate version 4.0.
@@ -30,9 +31,11 @@ Tooling: **DrawIO**
 ## Application Cooperation View
 
 ![[Data_Journal_ArchiMate_4.0-App_Coop.svg]]
+
 ## Application Usage View
 
 ![[Data_Journal_ArchiMate_4.0-App_Usage.svg]]
+
 ### Implementation View
 
 ![[Data_Journal_ArchiMate_4.0-Implementation.drawio 1.svg]]
