@@ -14,6 +14,9 @@ Most people rely on memory and intuition to understand their life—but memory i
 I am not selling anything. There are no ads. This website is not for money.  
 I want to share an idea that's massively improved my life for 13+ years.
 
+> [!TLDR] 
+> Use a spreadsheet to make a journal. One row per day. It may change your life.
+
 ## Topics
 
 ### What and Why
@@ -26,7 +29,8 @@ I want to share an idea that's massively improved my life for 13+ years.
 ### The Reference Build
 
 - [[Reference Build - Full Example|What does one look like?]]
-- [[Reference Build - Guide Overview|How could I make one?]]
+- [[Minimum Data Joural|Can I just dip my toe in? (YES)]]
+- [[Reference Build - Guide Overview|How could I make one like yours?]]
 
 ### Tools & Techniques
 
@@ -43,7 +47,10 @@ I want to share an idea that's massively improved my life for 13+ years.
 
 ### Architecture
 
+I like architecture models. So here's two.
+
 - [[C4 Reference Model]] depicting the reference build
+- [[ArchiMate Reference Model]] of the reference build
 
 ## Coming Soon™️
 
